@@ -11,7 +11,7 @@
           name: webpack artifacts
           path: public/
 #     branches: [ main ]
-
+    needs: build
 # jobs:
 #   build:
 
